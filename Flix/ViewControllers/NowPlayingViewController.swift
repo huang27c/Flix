@@ -28,7 +28,6 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
         tableView.dataSource = self
         tableView.rowHeight = 150
         fetchMovies()
-       
     }
     
     @objc func didPullToRefresh(_ refreshControl: UIRefreshControl) {
